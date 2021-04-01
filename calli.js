@@ -47,7 +47,7 @@ const callitrue = "";
 const callifalse = "";
 const calliwarn = "";
 ///////////////////////////////////////////////////////////////////////////////
-calli.login("");
+calli.login("ODI2NTYxNjU3OTc4MzU1NzU0.YGORiA.FwR_6POpMmnU4Ohi3iYdxAPnQtc");
 ///////////////////////////////////////////////////////////////////////////////
 calli.on("ready", () => {
   console.log(`${calli.user.tag}`);
@@ -57,7 +57,7 @@ calli.on("ready", () => {
 });
 ///////////////////////////////////////////////////////////////////////////////
 calli.on("message", async message => {
-  if (message.content.startsWith(prefix + "help")) {
+  if (message.content.startsWith(prefix S/ "S/help)) {
     let help = new Discord.MessageEmbed()
       .setColor(callicolor)
       .setImage(calliImage)
